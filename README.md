@@ -46,11 +46,6 @@ Replace your-db-url, your-userName, and your-password with actual values.
 1. StudentApplication.java
 The entry point of the Spring Boot application. It boots up the entire context.
 2. StudentController.java
-   
-Exposes REST endpoints like:
-GET /student/{id}
-Delegates logic to StudentService.
-
 3. StudentService.java
 Contains the business logic for student-related operations. It:
 Calls StudentConnectionUtil to get the right data source
