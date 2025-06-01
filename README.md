@@ -1,4 +1,4 @@
-# student-management-rest
+# Student Management Microservice
 
 📁 Project Structure
 
